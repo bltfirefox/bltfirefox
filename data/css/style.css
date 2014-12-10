@@ -1,0 +1,31 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+
+#container {
+    width: 100%;
+    height: 100%;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333;
+    padding: 10px;
+}
+
+#left-bar {
+    border-left: 3px solid #5fb760;
+    padding-left: 3px;
+}
+
+#right-bar {
+    border-right: 3px solid #eeac57;
+    padding-right: 3px;
+}
+
+.progress {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#data-bar {
+    font-size: 0.7em;
+    color: #aaa;
+}

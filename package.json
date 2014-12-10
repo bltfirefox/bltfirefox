@@ -1,0 +1,67 @@
+{
+  "name": "blt_bandwidth_listening_tool",
+  "title": "BLT: Bandwidth Listening Tool",
+  "id": "jid1-UVVOvowB7pQ7Ag",
+  "description": "An easy way to monitor the bandwidth into your browser.",
+  "author": "",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "_comment": "find more info about simple-pref sdk at https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/simple-prefs",
+  "preferences": [
+    {
+      "name": "shareData",
+      "title": "Share Usage Data",
+      "description": "Help us track which websites have the most cruft. Allow anonymous collection of domains, percentage cruft, and percent content.",
+      "type": "bool",
+      "value": false
+    },
+    {
+      "name": "filterAds",
+      "title": "Enable Ad filter",
+      "description": "Enables the use of the EasyList to determine ad content.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "cruftFilter",
+      "title": "Custom Cruft Filter",
+      "type": "bool",
+	  "description": "Enable custom cruft filter.",
+      "value": false
+    },
+    {
+      "type": "control",
+      "label": "Customize Cruft Definitions",
+      "name": "editCruftDef",
+      "title": "",
+      "description": "Choose what content types/domains are considered cruft."
+    },
+    {
+      "type": "control",
+      "description": "Content originating from domains in the blacklist will be considered cruft.",
+      "label": "View Blacklist",
+      "name": "editList",
+      "title": "Blacklist"
+    },
+    {
+      "name": "newDomain",
+      "title": "",
+      "description": "Domains to add",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "domainToRemove",
+      "title": "",
+      "description": "Domains to remove",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "type": "control",
+      "label": "Update Blacklist",
+      "name": "updateBlacklist",
+      "title": ""
+    }
+  ]
+}

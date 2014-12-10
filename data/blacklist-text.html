@@ -1,0 +1,35 @@
+<html>
+<head>
+    <style type="text/css" media="all">
+        textarea {
+            margin: 10px;
+        }
+
+        body {
+            background-color: gray;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<h1 class="header" style="text-align:center; margin-top:10">Blacklist</h1>
+<textarea rows="9" cols="30" id="edit-box" style="margin-left:auto; margin-right:auto; display:block"></textarea>
+
+<div class="text-center" style="margin:5px">
+    <button id="updateButton" class="btn btn-default" onclick="onClickUpdate();"
+            type="button">Update Blacklist
+    </button>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-2.1.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/blacklist-text.js"></script>
+</body>
+</html>

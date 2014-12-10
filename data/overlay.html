@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title></title>
+</head>
+
+<body>
+<div id="container">
+    <div class="clearfix">
+        <span id="left-bar">Content</span> <span class="pull-right" id="right-bar">Cruft</span>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" id="contentBar">
+            0%
+        </div>
+
+        <div class="progress-bar progress-bar-warning progress-bar-striped"
+             id="cruftBar">
+            0%
+        </div>
+    </div>
+    <div class="clearfix" id="data-bar">
+        <span id="left-bar-data">0kb</span> <span class="pull-right" id="right-bar-data">0kb</span>
+    </div>
+    <div class="text-center">
+        <span id="cachedContent">From Cache: 0%</span>
+    </div>
+
+    <div class="text-center">
+        <button class="btn btn-default btn-xs" onclick="onClickAdvanced();"
+                type="button">Details
+        </button>
+        <button class="btn btn-default btn-xs" onclick="onClickHistory();"
+                type="button">History
+        </button>
+        <button id="stats" class="btn btn-default btn-xs" onclick="onClickStats();"
+                type="button">Stats
+        </button>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-2.1.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/panel.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="container">
+    <div>
+        <h2 class="sub-header">Today</h2>
+
+        <div class="clearfix">
+            <span id="left-bar">Content</span> <span class="pull-right" id="right-bar">Cruft</span>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" id="content1" style="width: 0%">
+            </div>
+            <div class="progress-bar progress-bar-warning progress-bar-striped" id="cruft1" style="width: 0%">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="sub-header">Past 7 Days</h2>
+
+        <div class="clearfix">
+            <span id="left-bar">Content</span> <span class="pull-right" id="right-bar">Cruft</span>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" id="content2">
+            </div>
+            <div class="progress-bar progress-bar-warning progress-bar-striped" id="cruft2">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="sub-header">Past 30 Days</h2>
+
+        <div class="clearfix">
+            <span id="left-bar">Content</span> <span class="pull-right" id="right-bar">Cruft</span>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" id="content3">
+            </div>
+            <div class="progress-bar progress-bar-warning progress-bar-striped" id="cruft3">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/history.js"></script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-2.1.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

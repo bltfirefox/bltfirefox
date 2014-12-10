@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="container">
+    <div>
+        <table border="1">
+            <th>
+            <td style="text-align: center">First Party</td>
+            <td style="text-align: center">Third Party</td>
+            <td style="text-align: center">Ads</td>
+            </th>
+            <col width="130">
+            <col width="90">
+            <col width="90">
+            <col width="90">
+            <tr>
+                <td>
+                    <h style="margin-left:10px">Javascript</h>
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.JS,Domain.FIRST,this);" id="jsF">
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.JS,Domain.THIRD,this);" id="jsT">
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.JS,Domain.ADS,this);" id="jsA">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h style="margin-left:10px">CSS</h>
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.CSS,Domain.FIRST,this);" id="cssF">
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.CSS,Domain.THIRD,this);" id="cssT">
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.CSS,Domain.ADS,this);" id="cssA">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h style="margin-left:10px">Images</h>
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.IMG,Domain.FIRST,this);" id="imgF">
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.IMG,Domain.THIRD,this);" id="imgT">
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.IMG,Domain.ADS,this);" id="imgA">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h style="margin-left:10px">Videos</h>
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.VID,Domain.FIRST,this);" id="vidF">
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.VID,Domain.THIRD,this);" id="vidT">
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.VID,Domain.ADS,this);" id="vidA">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h style="margin-left:10px">Flash</h>
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.FLASH,Domain.FIRST,this);" id="flashF">
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.FLASH,Domain.THIRD,this);" id="flashT">
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.FLASH,Domain.ADS,this);" id="flashA">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h style="margin-left:10px">HTML</h>
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.HTML,Domain.FIRST,this);" id="htmlF">
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.HTML,Domain.THIRD,this);" id="htmlT">
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.HTML,Domain.ADS,this);" id="htmlA">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h style="margin-left:10px">Other</h>
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.OTHER,Domain.FIRST,this);" id="otherF">
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.OTHER,Domain.THIRD,this);" id="otherT">
+                </td>
+                <td style="text-align: center; vertical-align: middle;">
+                    <input type="checkbox" onclick="updateCruftDef(Type.OTHER,Domain.ADS,this);" id="otherA">
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</div>
+
+<script src="js/cruftDef.js"></script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-2.1.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
