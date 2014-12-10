@@ -1,0 +1,3 @@
+[submodule "lib/easylist-filter"]
+	path = lib/easylist-filter
+	url = https://github.com/bltfirefox/easylist-filter.git
